@@ -1,5 +1,5 @@
 # Synthetic Peace
-**A cyberpunk - synthwave inspired Hyprland rice.
+*A cyberpunk - synthwave inspired Hyprland rice.*
 
 ## WIP
 
