@@ -1,0 +1,124 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+
+  // Logo configuration - using your PNG
+  "logo": {
+    "type": "auto",
+    "source": "arch",
+     "width": 25,
+     "height": 15,
+    "padding": {
+      "top": 1,
+      "left": 2,
+      "right": 4
+    }
+  },
+  "display": {
+    "separator": ": "
+  },
+  "modules": [
+    "break",
+        {
+          "type": "custom",
+          "format": "┌────────────────────── Hardware ──────────────────────┐",
+          "outputColor": "cyan"
+        },
+        {
+          "type": "title",
+          "key": " PC",
+          "keyColor": "magenta"
+        },
+        {
+          "type": "cpu",
+          "key": "│ ├󰍛 CPU",
+          "showPeCoreCount": true,
+          "format": "{1}",
+          "keyColor": "magenta"
+        },
+        {
+          "type": "gpu",
+          "key": "│ ├󰍛 GPU",
+          "keyColor": "magenta"
+        },
+        {
+          "type": "memory",
+          "key": "└ └󰍛 Memory",
+          "keyColor": "magenta"
+        },
+        {
+          "type": "custom",
+          "format": "└──────────────────────────────────────────────────────┘",
+          "outputColor": "cyan"
+        },
+        "break",
+        {
+          "type": "custom",
+          "format": "┌────────────────────── Software ──────────────────────┐",
+          "outputColor": "cyan"
+        },
+        {
+          "type": "os",
+          "key": " OS",
+          "keyColor": "magenta"
+        },
+        {
+          "type": "kernel",
+          "key": "│ ├ Kernel",
+          "keyColor": "magenta"
+        },
+        {
+          "type": "packages",
+          "key": "│ ├󰏖 Packages",
+          "keyColor": "magenta"
+        },
+        {
+          "type": "shell",
+          "key": "│ ├ Shell",
+          "keyColor": "magenta"
+        },
+        {
+          "type": "command",
+          "key": "│ ├ OS Age",
+          "keyColor": "magenta",
+          "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+        },
+        {
+          "type": "uptime",
+          "key": "│ ├ Uptime",
+          "keyColor": "magenta"
+        },
+        //"break",
+        //{
+        //  "type": "custom",
+        //  "format": " Hyprland",
+        //  "outputColor": "magenta"
+        //},
+        {
+          "type": "lm",
+          "key": "│ ├ LM",
+          "keyColor": "magenta"
+        },
+        {
+          "type": "wm",
+          "key": "│ ├ WM",
+          "keyColor": "magenta"
+        },
+        {
+          "type": "gpu",
+          "key": "└ └󰍛 GPU Driver",
+          "format": "{3}",
+          "keyColor": "magenta"
+        },
+        {
+          "type": "custom",
+          "format": "└──────────────────────────────────────────────────────┘",
+          "outputColor": "cyan"
+        },
+        {
+          "type": "colors",
+          "symbol": "circle"
+        },
+        "break",
+          ]
+}
+

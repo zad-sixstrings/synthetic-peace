@@ -1,0 +1,111 @@
+[global]
+    monitor = 1
+    follow = mouse
+    width = 350
+    height = (0, 300)
+    origin = bottom-right
+    offset = (20, 50)
+    scale = 0
+    notification_limit = 3
+    
+    progress_bar = true
+    progress_bar_height = 10
+    progress_bar_frame_width = 1
+    progress_bar_min_width = 150
+    progress_bar_max_width = 300
+    
+    indicate_hidden = yes
+    transparency = 3
+    separator_height = 2
+    padding = 15
+    horizontal_padding = 15
+    text_icon_padding = 0
+    frame_width = 2
+    frame_color = "#ff00ff19"
+    gap_size = 5
+    separator_color = frame
+    
+    sort = yes
+    idle_threshold = 120
+    font = JetBrains Mono 11
+    line_height = 0
+    markup = full
+    format = "<b>%s</b>\n%b"
+    alignment = left
+    vertical_alignment = center
+    show_age_threshold = 60
+    ellipsize = middle
+    ignore_newline = no
+    stack_duplicates = true
+    hide_duplicate_count = false
+    show_indicators = yes
+    
+    enable_recursive_icon_lookup = true
+    icon_theme = "Adwaita"
+    icon_position = left
+    min_icon_size = 32
+    max_icon_size = 48
+    
+    sticky_history = yes
+    history_length = 20
+    
+    dmenu = /usr/bin/dmenu -p dunst:
+    browser = /usr/bin/xdg-open
+    always_run_script = true
+    title = Dunst
+    class = Dunst
+    corner_radius = 8
+    ignore_dbusclose = false
+    
+    force_xwayland = false
+    force_xinerama = false
+    
+    mouse_left_click = close_current
+    mouse_middle_click = do_action, close_current
+    mouse_right_click = close_all
+
+[experimental]
+    per_monitor_dpi = false
+
+[urgency_low]
+    background = "#0a0a0a22"
+    foreground = "#00ffff"
+    frame_color = "#00ffff"
+    timeout = 5
+    icon = ~/.config/dunst/icons/info.png
+
+[urgency_normal]
+    background = "#0d0d0d22"
+    foreground = "#ffffff"
+    frame_color = "#ff00ff"
+    timeout = 10
+    icon = ~/.config/dunst/icons/normal.png
+
+[urgency_critical]
+    background = "#1a0a1a22"
+    foreground = "#ff0080"
+    frame_color = "#ff0080"
+    timeout = 0
+    icon = ~/.config/dunst/icons/critical.png
+
+# Custom rules for specific applications
+[spotify]
+    appname = Spotify
+    background = "#ff00ff22"
+    foreground = "#ff00ff"
+    frame_color = "#ff00ff"
+    timeout = 3
+
+[discord]
+    appname = discord
+    background = "#00ffff22"
+    foreground = "#00ffff"
+    frame_color = "#00ffff"
+    timeout = 5
+
+[system]
+    appname = "System"
+    background = "#0a0a0a"
+    foreground = "#00ff00"
+    frame_color = "#00ff00"
+    timeout = 8
