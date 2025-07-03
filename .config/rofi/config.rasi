@@ -1,0 +1,9 @@
+configuration {
+  drun-display-format: "{icon} {name}";
+  show-icons: true;
+}
+//@theme "/home/zad/.local/share/rofi/themes/spotlight-dark.rasi"
+
+//@theme "/home/zad/.local/share/rofi/themes/legend.rasi"
+
+@theme "~/.local/share/rofi/themes/spotlight-dark.rasi"

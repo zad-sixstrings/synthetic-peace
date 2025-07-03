@@ -22,7 +22,7 @@
 
 window#waybar {
 
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     /* border-bottom: 0px solid rgba(100, 114, 125, 0.5); */
     color: #ffffff;
     transition-property: background-color;
@@ -79,6 +79,7 @@ window#waybar.hidden {
 #temperature,
 #backlight,
 #network,
+#bluethooth,
 #pulseaudio,
 #custom-media,
 #tray,
@@ -86,6 +87,7 @@ window#waybar.hidden {
 #idle_inhibitor,
 #custom-power,
 #custom-pacman,
+#custom-weather,
 #language {
     padding: 0px 4px;
     margin: 4px 3px 5px 3px;
@@ -97,6 +99,11 @@ window#waybar.hidden {
 #workspaces {
     margin: 0 4px;
 }
+
+#bluetooth {
+  padding-left: 7px;
+}
+
 
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {
@@ -150,6 +157,10 @@ label:focus {
 
 #network.disconnected {
     color: @alert;
+}
+
+#bluetooth {
+  color: #0082FC;
 }
 
 #pulseaudio {
