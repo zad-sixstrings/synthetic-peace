@@ -1,9 +1,15 @@
 configuration {
-  drun-display-format: "{icon} {name}";
+  modes: "drun,run,filebrowser";
+  case-sensitive: false;
+  cycle: true;
+  filter: "";
+  scroll-method: 0;
+  normalize-match: true;
+  icon-theme: "papirus";
+  drun-display-format: "{name} [<span weight='light' size='small'><I>({generic})</i></span>]";
   show-icons: true;
+  steal-focus: false;
 }
-//@theme "/home/zad/.local/share/rofi/themes/spotlight-dark.rasi"
 
-//@theme "/home/zad/.local/share/rofi/themes/legend.rasi"
 
-@theme "~/.local/share/rofi/themes/spotlight-dark.rasi"
+@theme "~/.config/rofi/synthetic-peace.rasi"
