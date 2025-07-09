@@ -17,7 +17,7 @@ The wallpaper I'm using at the moment is not included in the files because it's 
 
 ## Todo
 
-- [ ] Switch from Alacritty to Kitty.
+- [x] Switch from Alacritty to Kitty.
 - [ ] Style dunst to match the theme, or switch to another notification daemon if needed to achieve desired look.
-- [ ] Style fuzzel to match the theme.
-- [ ] Switch from waybar to eww.
+- [x] ~Style fuzzel to match the theme.~ Switched to rofi.
+- [ ] Eww widgets.
