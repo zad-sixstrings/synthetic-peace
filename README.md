@@ -1,7 +1,7 @@
 # Synthetic Peace
 *A cyberpunk - synthwave inspired Hyprland rice.*
 
-![screenshot1](screenshots/screenshot2.png)
+![screenshot1](screenshots/screenshot.png)
 
 ## WIP
 
@@ -15,9 +15,22 @@ I aim at creating a neon yet comfy setup. The goal is to orbit around the cyberp
 
 The wallpaper I'm using at the moment is not included in the files because it's easy to find, and eventhough it looks nice, I'm looking for something a bit darker and less related to Cyberpunk Edgerunners or Cyberpunk 2077 (eventhough I loved the game and show).
 
+## Ingredients
+- [Hyrland](https://github.com/hyprwm/Hyprland) (duh.)
+- [Hyprlock](https://github.com/hyprwm/hyprlock)
+- [Hypridle](https://github.com/hyprwm/hypridle)
+- [eww](https://github.com/elkowar/eww) (not yet implemented)
+- [dunst](https://github.com/dunst-project/dunst)
+- [fastfetch](https://github.com/fastfetch-cli/fastfetch)
+- [kitty](https://github.com/kovidgoyal/kitty)
+- [nvim](https://github.com/neovim/neovim)
+- [rofi](https://github.com/davatorium/rofi)
+- [waybar](https://github.com/Alexays/Waybar)
+
 ## Todo
 
 - [x] Switch from Alacritty to Kitty.
-- [ ] Style dunst to match the theme, or switch to another notification daemon if needed to achieve desired look.
+- [ ] Style dunst to match the theme.
 - [x] ~Style fuzzel to match the theme.~ Switched to rofi.
 - [ ] Eww widgets.
+- [x] List programs.
