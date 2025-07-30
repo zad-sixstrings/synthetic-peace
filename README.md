@@ -1,8 +1,8 @@
 # Synthetic Peace
 *A cyberpunk - synthwave inspired Hyprland rice.*
 
-![video](video/demo.mp4)
-![screenshot](screenshots/screenshot.png)
+![screenshot1](screenshots/screenshot1.png)
+![screenshot2](screenshots/screenshot2.png)
 
 ## WIP
 
