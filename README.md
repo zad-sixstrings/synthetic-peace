@@ -1,7 +1,8 @@
 # Synthetic Peace
 *A cyberpunk - synthwave inspired Hyprland rice.*
 
-![screenshot1](screenshots/screenshot.png)
+![video](video/demo.mp4)
+![screenshot](screenshots/screenshot.png)
 
 ## WIP
 
@@ -19,6 +20,7 @@ The wallpaper I'm using at the moment is not included in the files because it's 
 - [Hyrland](https://github.com/hyprwm/Hyprland) (duh.)
 - [Hyprlock](https://github.com/hyprwm/hyprlock)
 - [Hypridle](https://github.com/hyprwm/hypridle)
+- [Hyprexpo](https://github.com/hyprwm/hyprland-plugins/tree/main/hyprexpo)
 - [eww](https://github.com/elkowar/eww) (not yet implemented)
 - [dunst](https://github.com/dunst-project/dunst)
 - [fastfetch](https://github.com/fastfetch-cli/fastfetch)
@@ -26,6 +28,7 @@ The wallpaper I'm using at the moment is not included in the files because it's 
 - [nvim](https://github.com/neovim/neovim)
 - [rofi](https://github.com/davatorium/rofi)
 - [waybar](https://github.com/Alexays/Waybar)
+- [swww](https://github.com/LGFae/swww)
 
 ## Todo
 
