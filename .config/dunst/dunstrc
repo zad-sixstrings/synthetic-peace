@@ -91,21 +91,21 @@
 # Custom rules for specific applications
 [spotify]
     appname = Spotify
-    background = "#ff00ff22"
+    background = "#000000c2"
     foreground = "#ff00ff"
     frame_color = "#ff00ff"
     timeout = 3
 
 [discord]
     appname = discord
-    background = "#00ffff22"
+    background = "#000000c2"
     foreground = "#00ffff"
     frame_color = "#00ffff"
     timeout = 5
 
 [system]
     appname = "System"
-    background = "#0a0a0a22"
+    background = "#000000c2"
     foreground = "#00ff00"
     frame_color = "#00ff00"
     timeout = 8
