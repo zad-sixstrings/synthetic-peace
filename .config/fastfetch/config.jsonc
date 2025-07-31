@@ -20,98 +20,98 @@
         {
           "type": "custom",
           "format": "┌────────────────────── Hardware ──────────────────────┐",
-          "outputColor": "cyan"
+          "outputColor": "#4196F3"
         },
         {
           "type": "title",
           "key": " PC",
-          "keyColor": "magenta"
+          "keyColor": "#FF446F"
         },
         {
           "type": "cpu",
           "key": "│ ├󰍛 CPU",
           "showPeCoreCount": true,
           "format": "{1}",
-          "keyColor": "magenta"
+          "keyColor": "#FF446F"
         },
         {
           "type": "gpu",
           "key": "│ ├󰍛 GPU",
-          "keyColor": "magenta"
+          "keyColor": "#FF446F"
         },
         {
           "type": "memory",
           "key": "└ └󰍛 Memory",
-          "keyColor": "magenta"
+          "keyColor": "#FF446F"
         },
         {
           "type": "custom",
           "format": "└──────────────────────────────────────────────────────┘",
-          "outputColor": "cyan"
+          "outputColor": "#4196F3"
         },
         "break",
         {
           "type": "custom",
           "format": "┌────────────────────── Software ──────────────────────┐",
-          "outputColor": "cyan"
+          "outputColor": "#4196F3"
         },
         {
           "type": "os",
           "key": " OS",
-          "keyColor": "magenta"
+          "keyColor": "#FF446F"
         },
         {
           "type": "kernel",
           "key": "│ ├ Kernel",
-          "keyColor": "magenta"
+          "keyColor": "#FF446F"
         },
         {
           "type": "packages",
           "key": "│ ├󰏖 Packages",
-          "keyColor": "magenta"
+          "keyColor": "#FF446F"
         },
         {
           "type": "shell",
           "key": "│ ├ Shell",
-          "keyColor": "magenta"
+          "keyColor": "#FF446F"
         },
         {
           "type": "command",
           "key": "│ ├ OS Age",
-          "keyColor": "magenta",
+          "keyColor": "#FF446F",
           "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
         },
         {
           "type": "uptime",
           "key": "│ ├ Uptime",
-          "keyColor": "magenta"
+          "keyColor": "#FF446F"
         },
         //"break",
         //{
         //  "type": "custom",
         //  "format": " Hyprland",
-        //  "outputColor": "magenta"
+        //  "outputColor": "#FF446F"
         //},
         {
           "type": "lm",
           "key": "│ ├ LM",
-          "keyColor": "magenta"
+          "keyColor": "#FF446F"
         },
         {
           "type": "wm",
           "key": "│ ├ WM",
-          "keyColor": "magenta"
+          "keyColor": "#FF446F"
         },
         {
           "type": "gpu",
           "key": "└ └󰍛 GPU Driver",
           "format": "{3}",
-          "keyColor": "magenta"
+          "keyColor": "#FF446F"
         },
         {
           "type": "custom",
           "format": "└──────────────────────────────────────────────────────┘",
-          "outputColor": "cyan"
+          "outputColor": "#4196F3"
         },
         {
           "type": "colors",

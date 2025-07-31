@@ -12,6 +12,9 @@
 @define-color accent5 #7da6ff;
 @define-color accent6 #0db9d7;
 
+@define-color hotpink #ff446f;
+@define-color softblue #4196f3;
+
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     border: none;
@@ -49,7 +52,7 @@ window#waybar.hidden {
 #workspaces button.active {
     padding: 0 0 0 0;
     margin: 4px 0 6px 0;
-    background-color: #ff0099;
+    background-color: @hotpink;
     color: #303030;
     min-width: 36px;
 }
@@ -164,7 +167,7 @@ label:focus {
 }
 
 #pulseaudio {
-    color: @accent4;
+    color: @softblue;
 }
 
 #pulseaudio.muted {
